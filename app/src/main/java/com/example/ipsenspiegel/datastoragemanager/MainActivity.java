@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         this.hello_TxtView = (TextView) this.findViewById(R.id.textViewHello);
         this.update_EdtTxt = (EditText) this.findViewById(R.id.edtTextUpdate);
 
